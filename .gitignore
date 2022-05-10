@@ -4,7 +4,7 @@ target/
 !**/src/test/**/target/
 
 ### Solución a la práctica
-/src/test/java/com/inserta/utilidades/DispensadorJabonTestTerminados.java
+/src/test/java/com/inserta/utilidades/DispensadorJabonResueltoTest.java
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -39,4 +39,3 @@ build/
 
 ### Mac OS ###
 .DS_Store
-
