@@ -39,8 +39,14 @@ public class DispensadorJabon {
 	public int getDepositoActual() {
 		return this.depositoActual;
 	}
+	public boolean estaVacio(){
+		return this.depositoActual <= 0;
+	}
 	public boolean isEncendido() {
 		return this.encendido;
+	}
+	public boolean isApagado() {
+		return !this.encendido;
 	}
 	public void setMarca(String marca) {
 		//Si NO son "" o espacios en blanco....
