@@ -7,7 +7,6 @@ import static org.junit.Assert.*;
 public class DispensadorJabonTest {
 
     /**
-     * TODO Probamos que al crear un dispensador por defecto, se cumpla lo siguiente...
      * La prueba unitaria dará correcto si se cumplen las 3 condiciones. No pasará la prueba si
      * se incumple alguna de las condiciones.
      * <ul>
@@ -18,7 +17,11 @@ public class DispensadorJabonTest {
      */
     @Test
     public void creacionPorDefecto(){
-        fail("No implementado");
+        DispensadorJabon dispensadorJabon = new DispensadorJabon();
+        System.out.println(dispensadorJabon);
+        assertNotNull("Marca es nula", dispensadorJabon.getMarca());
+        assertFalse("Está encendido", dispensadorJabon.isEncendido());
+        assertEquals("El depósito no está vacío", 0, dispensadorJabon.getDepositoActual());
     }
 
 
