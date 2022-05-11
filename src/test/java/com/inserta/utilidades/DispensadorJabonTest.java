@@ -24,5 +24,14 @@ public class DispensadorJabonTest {
         assertEquals("El depósito no está vacío", 0, dispensadorJabon.getDepositoActual());
     }
 
+    /**
+     * Hacer una prueba unitaria para comprobar el dispensador se apaga automáticamente al llegar al 0% de batería
+     */
+    @Test
+    public void apagadoAutomatico(){
+
+        fail("No implementado todavía");
+    }
+
 
 }
