@@ -83,7 +83,7 @@ public class DispensadorJabon {
 
 	//region Métodos
 	public void apagar() {
-		this.encendido = false;
+		this.encendido = true;
 	}
 
 	public void encender() {
@@ -105,7 +105,6 @@ public class DispensadorJabon {
 			}
 			if (this.bateria < 0) {
 				this.bateria = 0;
-				this.apagar();
 			}
 		}
 		
